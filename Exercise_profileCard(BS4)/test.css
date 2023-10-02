@@ -31,17 +31,21 @@ body{
     border-bottom: none;
     padding: 25px;
     text-align: center;
+    background: linear-gradient(45deg, #D6294F, #FA7E1E);
+    margin-bottom: 15px;
+    border-radius: 30px; /* Smoother edge */
+    align-items: center; /* Center vertically */
 }
 
 .card .card-header h5 {
     margin-bottom: 0;
-    color: #535151;
+    color: #ffffff;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
     display: inline-block;
-    margin-right: 10px;
     line-height: 1.4;
+    padding-bottom: 25px;
 }
 
 .card .card-header+.card-block, .card .card-header+.card-block-big {
@@ -73,6 +77,7 @@ body{
     width: 120px;
     height: 120px;
 }
+
 
 .img-radius {
     border-radius: 50%;
@@ -127,6 +132,14 @@ body{
     margin: 0 3px;
     background-color: #ccc;
 }
+
+.bg-c-jpcs.counter-block .row {
+    padding-top: 14px;
+    display: flex; /* Display its children in a row */
+    justify-content: space-evenly; /* Arrange items with space in between */
+    align-items: center; /* Center items vertically */
+}
+
 
 .user-card .card-block .counter-block {
     color: #fff;
